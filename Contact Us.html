@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us - PoultryLink Uganda</title>
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body id="top">
+
+    <!-- WEBSITE HEADER -->
+    <header>
+        <h1>🐔 PoultryLink Uganda</h1>
+        <p>Contact Us</p>
+    </header>
+
+    <!-- HORIZONTAL NAVIGATION -->
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About%20Us.html">About Us</a></li>
+            <li><a href="Market.html">Marketplace</a></li>
+            <li><a href="Farmers%20and%20buyers.html">Farmers</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Poultry%20Tips.html">Poultry Tips</a></li>
+            <li><a href="Login.htm">Login</a></li>
+            <li><a href="Contact%20Us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- CONTACT INTRODUCTION -->
+        <section id="contact">
+
+            <h2>Contact Us</h2>
+
+            <p>
+                Welcome to the
+                <span class="highlight">PoultryLink Uganda</span>
+                contact page.
+            </p>
+
+            <p>
+                Farmers, buyers and other poultry stakeholders
+                can contact us for more information.
+            </p>
+
+        </section>
+
+        <!-- CONTACT INFORMATION -->
+        <section id="contact-information">
+
+            <div class="contact-info">
+
+                <h2>Our Contact Information</h2>
+
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:info@poultrylinkuganda.com">
+                        info@poultrylinkuganda.com
+                    </a>
+                </p>
+
+                <p>
+                    <strong>Location:</strong> Uganda
+                </p>
+
+                <p>
+                    <strong>Services:</strong>
+                    Poultry marketing, networking and information sharing.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT DETAILS TABLE -->
+        <section id="contact-details">
+
+            <h2>Contact Details</h2>
+
+            <div class="table-container">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th colspan="3">
+                                PoultryLink Uganda Contact Information
+                            </th>
+                        </tr>
+
+                        <tr>
+                            <th scope="col">Contact Method</th>
+                            <th scope="col">Details</th>
+                            <th scope="col">Purpose</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">Online Contact</td>
+                            <td>info@poultrylinkuganda.com</td>
+                            <td>General Enquiries</td>
+                        </tr>
+
+                        <tr>
+                            <td>Contact Form</td>
+                            <td>Send Messages to PoultryLink Uganda</td>
+                        </tr>
+
+                        <tr>
+                            <td>Location</td>
+                            <td>Uganda</td>
+                            <td>PoultryLink Operations</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section id="message-form">
+
+            <h2>Send Us a Message</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend>Contact Form</legend>
+
+                    <label for="name">Full Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+                    <label for="email">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                    <label for="date">Preferred Contact Date</label>
+
+                    <input
+                        type="date"
+                        id="date"
+                        name="date"
+                    >
+
+                    <label for="role">I am a:</label>
+
+                    <select id="role" name="role">
+                        <option value="">Select an option</option>
+                        <option value="farmer">Farmer</option>
+                        <option value="buyer">Buyer</option>
+                        <option value="supplier">Supplier</option>
+                        <option value="student">Student</option>
+                    </select>
+
+                    <!-- RADIO BUTTONS -->
+                    <div class="radio-group">
+
+                        <p>
+                            <strong>Preferred Contact Method</strong>
+                        </p>
+
+                        <input
+                            type="radio"
+                            id="email-contact"
+                            name="contactmethod"
+                            value="Email"
+                        >
+
+                        <label for="email-contact">Email</label>
+
+                        <input
+                            type="radio"
+                            id="phone-contact"
+                            name="contactmethod"
+                            value="Phone"
+                        >
+
+                        <label for="phone-contact">Phone</label>
+
+                    </div>
+
+                    <!-- CHECKBOX -->
+                    <div class="checkbox-group">
+
+                        <input
+                            type="checkbox"
+                            id="updates"
+                            name="updates"
+                        >
+
+                        <label for="updates">
+                            Receive poultry farming updates and news
+                        </label>
+
+                    </div>
+
+                    <label for="subject">Subject</label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Enter subject"
+                    >
+
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message here"
+                    ></textarea>
+
+                    <button type="submit">Send Message</button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+        <!-- LOCATION AND MAP -->
+        <section id="location">
+
+            <h2>Our Location</h2>
+
+            <p>
+                PoultryLink Uganda operates in <strong>Uganda</strong>.
+            </p>
+
+            <div class="map">
+
+                <iframe
+                    src="https://www.google.com/maps?q=Uganda&amp;output=embed"
+                    title="Map showing Uganda"
+                    loading="lazy"
+                    allowfullscreen>
+                </iframe>
+
+            </div>
+
+        </section>
+
+        <!-- BACK TO TOP -->
+        <p class="back-to-top">
+            <a href="#top">Back to Top</a>
+        </p>
+
+    </main>
+
+    <!-- WEBSITE FOOTER -->
+    <footer>
+
+        <h3>Connect With PoultryLink Uganda</h3>
+
+        <p>Connecting farmers with buyers through technology.</p>
+
+        <p>
+            Contact us:
+            <a href="tel:+256759381060">+256 759 381060</a> |
+            <a href="tel:+256764466667">+256 764 466667</a> |
+            <a href="tel:+256777191294">+256 777 191294</a>
+        </p>
+
+        <!-- SOCIAL MEDIA ICONS -->
+        <div class="social-icons">
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/256700000000"
+               class="whatsapp"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/"
+               class="youtube"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="YouTube">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+
+           <!-- Google -->
+        <a href="https://www.google.com/"
+           class="google"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Google">
+            <i class="fa-brands fa-google"></i>
+        </a>
+            <!-- TikTok -->
+            <a href="https://www.tiktok.com/"
+               class="tiktok"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="TikTok">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/"
+               class="instagram"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <!-- X / Twitter -->
+            <a href="https://x.com/"
+               class="twitter"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="X or Twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/"
+               class="facebook"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            
+
+            
+
+        </div>
+
+        <p>&copy; 2026 PoultryLink Uganda. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+</html>
